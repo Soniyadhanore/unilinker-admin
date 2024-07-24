@@ -1,0 +1,126 @@
+$background-color_1: #f0f0f0;
+
+.vertical-tabview {
+	display: flex;
+	padding: 20px;
+
+	.p-tabview-nav {
+		flex: 0 0 auto;
+		display: block;
+		border: none;
+		padding: 0;
+		width: 220px;
+
+		li {
+			overflow: visible;
+
+			.p-tabview-nav-link {
+				overflow: visible;
+				display: block;
+				padding: 0 !important;
+				border: none;
+				border-radius: 0;
+				cursor: pointer;
+				background: transparent !important;
+				color: #000 !important;
+				height: 75px !important;
+				&:hover {
+					background-color: $background-color_1;
+				}
+			}
+
+		}
+
+		.p-tabview-ink-bar {
+			background-color: #fff !important;
+		}
+	}
+
+	.p-tabview-panels {
+		flex: 1;
+	}
+
+	.p-tabview-panel {
+		border: none;
+	}
+
+	.vertical-tab-content {
+		padding: 0 25px;
+
+		h4 {
+			font-size: 18px;
+			font-weight: 600;
+			color: #000;
+		}
+
+		.formField {
+			margin: 20px 0;
+
+			h6 {
+				font-weight: 600;
+				color: #000;
+			}
+		}
+	}
+
+	.p-tabview-nav-content {
+		border: 2px solid #BBBABB;
+		padding: 24px 18px 0px 18px;
+		border-radius: 8px;
+	}
+
+	.p-tabview-title {
+		display: flex;
+		align-items: center;
+		justify-content: start;
+
+		.round-cou {
+			width: 40px;
+			height: 40px;
+			border-radius: 40px;
+			background: white;
+			color: #666666;
+			border: 2px solid #666666;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 10px;
+			position: relative;
+
+			&::after {
+				content: '';
+				position: absolute;
+				left: 0px;
+				right: 0px;
+				bottom: -40px;
+				height: 40px;
+				width: 1px;
+				margin: auto;
+				background: green;
+			}
+
+			&.active {
+				background: green !important;
+				color: #fff;
+			}
+
+			&.current {
+				border: 2px solid green !important;
+				color: green !important;
+
+				&::after {
+					background: #E5E7EB !important;
+					height: 38px;
+				}
+			}
+		}
+
+		.round-remove {
+			&::after {
+				display: none;
+			}
+		}
+
+	}
+
+}

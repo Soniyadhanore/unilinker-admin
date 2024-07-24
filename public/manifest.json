@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "id": "https://unilinkr-admin.com",
+  "dir": "ltr",
+  "lang": "en",
+  "name": "unilinkr-admin",
+  "short_name": "unilinkr-admin",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ED4731",
+  "background_color": "#FFF8F3",
+  "description": "unilinkr-admin",
+  "categories": [
+    "food",
+    "restaurant",
+    "delivery",
+    "shopping"
+  ],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "24x24",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": " ",
+      "id": "  "
+    }
+  ]
+}

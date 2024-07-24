@@ -1,0 +1,106 @@
+.profile-update {
+    display: flex;
+    margin: 10px 0 30px;
+
+    input {
+        margin: 30px;
+        border: none;
+    }
+
+    input:focus {
+        box-shadow: none !important;
+    }
+    span {
+        color: green;
+        margin: 4px 0;
+    }
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    background: lightgray;
+    position: relative;
+
+    input {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    span {
+        position: absolute;
+        top: 0;
+        right: 5px;
+        background: #DC362E;
+        color: #fff;
+        padding: 0;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+        margin: 4px;
+    }
+
+    img {
+        width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    }
+    h6 {
+        position: absolute;
+        bottom: -15px;
+        left: 28px;
+        background: linear-gradient(90deg, #007FB6 -42.81%, #C08CFB 99.99%, #C08CFB 99.99%);
+        color: #fff;
+        padding: 5px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+// Comapny Details Css
+.company-profile {
+    border: 1px solid #EEEEEE;
+    padding: 20px;
+    border-radius: 8px;
+    .formField-heading {
+        h5 {
+            font-weight: 400 !important;
+            color: #666666 !important;
+            span{
+                font-weight: bold;
+            }
+        }
+        h6 {
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+}
+.company-update{
+display: flex;
+}
+.company-portfolioIMG {
+    img {
+        width: 92px;
+    height: 78px;
+    }
+}

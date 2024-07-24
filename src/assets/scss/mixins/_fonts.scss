@@ -1,0 +1,101 @@
+
+ /* Typography Mixin */
+@mixin h1-heading($color, $family: 'QanelasBold',) {
+    font-family: $family;
+    font-size: $h1;
+    color: $color;
+    margin: 0px 0px 4px 0px;
+    @media (max-width: 1024px) {
+        font-size: $h1-mobile;
+    }
+}
+
+@mixin h2-heading($color, $family: 'QanelasBold',) {
+    font-family: $family;
+    font-size: $h2;
+    color: $color;
+    margin: 0px 0px 4px 0px;
+    @media (max-width: 1024px) {
+        font-size: $h2-mobile;
+    }
+}
+
+@mixin h3-heading($color, $family: 'QanelasBold',) {
+    font-family: $family;
+    font-size: $h3;
+    color: $color;
+    margin: 0px 0px 4px 0px;    
+    @media (max-width: 1024px) {
+        font-size: $h3-mobile;
+    }
+}
+
+@mixin h4-heading($color, $family: 'QanelasSemiBold',) {
+    font-family: $family;
+    font-size: $h4;
+    color: $color;
+    margin: 0px;
+    @media (max-width: 1024px) {
+        font-size: $h4-mobile;
+    }
+}
+
+@mixin h5-heading($color, $family: 'QanelasSemiBold',) {
+    font-family: $family;
+    font-size: $h5;
+    color: $color;
+    margin: 0px;
+    @media (max-width: 1024px) {
+        font-size: $h5-mobile;
+    }
+}
+
+@mixin h6-heading($color, $family: 'QanelasMedium',) {
+    font-family: $family;
+    font-size: $h6;
+    color: $color;
+    margin: 0px;
+    @media (max-width: 1024px) {
+        font-size: $h6-mobile;
+    }   
+}
+
+@mixin p1-paragraph($color, $family: 'QanelasRegular',) {
+    font-family: $family;
+    font-size: $p1;
+    color: $color;
+    margin: 0px;
+    @media (max-width: 1024px) {
+        font-size: $p1-mobile;
+    }
+}
+
+@mixin p2-paragraph($color, $family: 'QanelasRegular',) {
+    font-family: $family;
+    font-size: $p2;
+    color: $color;
+    margin: 0px;
+    @media (max-width: 1024px) {
+        font-size: $p2-mobile;
+    }
+}
+
+@mixin p3-paragraph($color, $family: 'QanelasRegular',) {
+    font-family: $family;
+    font-size: $p3;
+    color: $color;
+    margin: 0px;
+    @media (max-width: 1024px) {
+        font-size: $p3-mobile;
+    }
+}
+
+@mixin p4-paragraph($color, $family: 'QanelasRegular',) {
+    font-family: $family;
+    font-size: $p4;
+    color: $color;
+    margin: 0px;
+    @media (max-width: 1024px) {
+        font-size: $p4-mobile;
+    }
+}

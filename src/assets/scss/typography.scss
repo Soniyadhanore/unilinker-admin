@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'QanelasRegular';
+    font-weight: 400;
+    src: url('./../fonts/QanelasRegular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'QanelasMedium';
+    font-weight: 500;
+    src: url('./../fonts/QanelasMedium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'QanelasSemiBold';
+    font-weight: 600;
+    src: url('./../fonts/QanelasSemiBold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'QanelasBold';
+    font-weight: 700;
+    src: url('./../fonts/QanelasBold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'QanelasExtraBold';
+    src: url('./../fonts/QanelasExtraBold.otf') format('truetype');
+}
+
+$h1: 48px !default;
+$h2: 32px !default;
+$h3: 24px !default;
+$h4: 20px !default;
+$h5: 18px !default;
+$h6: 16px !default;
+$p1: 16px !default;
+$p2: 14px !default;
+$p3: 12px !default;
+$p4: 10px !default;
+
+// mobile
+$h1-mobile: 36px !default;
+$h2-mobile: 28px !default;
+$h3-mobile: 20px !default;
+$h4-mobile: 18px !default;
+$h5-mobile: 16px !default;
+$h6-mobile: 14px !default;
+$p1-mobile: 14px !default;
+$p2-mobile: 12px !default;
+$p3-mobile: 10px !default;
+$p4-mobile: 10px !default;

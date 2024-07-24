@@ -1,0 +1,151 @@
+@import '../../../styles.scss';
+
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+}
+
+.header {
+    background-color: #fff;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E5E7EB;
+
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .header-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .down-arrow {
+            filter: contrast(0) brightness(5);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .header-logo {
+                width: 110px;
+                height: auto;
+                margin: 0 0px;
+            }
+
+            .p-button {
+                margin: 0px 30px;
+                display: flex;
+                align-items: center;
+
+                .down-arrow {
+                    margin-left: 10px;
+                    margin-top: 5px;
+                    position: relative;
+                }
+            }
+        }
+
+        .header-center {
+            display: flex;
+            justify-content: center;
+
+            .p-inputtext {
+                width: 388px;
+            }
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .p-overlay-badge {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .header__user {
+                display: flex;
+                align-items: center;
+                margin-left: 15px;
+                cursor: pointer;
+
+                span {
+                    display: flex;
+                    align-items: center;
+
+                    .pi-angle-down {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.top-toolbar-right-item {
+    position: relative;
+
+    .language-drop {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+        cursor: pointer;
+
+        .language-text {
+            font-family: "QanelasRegular" !important;
+            font-size: 12px;
+            color: #fff;
+            margin: 0px 4px;
+        }
+    }
+
+    .currency-drop {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+        position: relative;
+        cursor: pointer;
+
+        .p-badge {
+            position: absolute;
+            right: -8px;
+            top: -8px;
+            background: red;
+            min-width: 18px;
+            height: 18px;
+            line-height: 1.1rem;
+            font-size: 12px;
+        }
+
+        .currency-text {
+            font-family: "QanelasRegular" !important;
+            font-size: 12px;
+            color: #fff;
+            margin: 0px 4px;
+        }
+    }
+
+    &~.top-toolbar-right-item {
+        border-left: 1px solid $text;
+        margin-left: 8px;
+    }
+}
+
+.notification-list {
+    width: 270px;
+
+    .p-menuitem-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

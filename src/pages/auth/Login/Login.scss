@@ -1,0 +1,52 @@
+@import "../../../styles.scss";
+
+.Login-page {
+    background: #fff;
+    min-height: 100vh;
+    max-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .LoginformContent {
+        .LoginForm {
+            background: #fff;
+            padding: 30px;
+            border-radius: 6px;
+            box-shadow: rgb(0 0 0 / 30%) 0px 1px 15px;
+
+            a {
+                color: #006491 !important;
+                font-weight: 600;
+            }
+
+            .btn-orange {
+                text-align: center;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.logindatabasedd {
+    position: fixed;
+    top: 0;
+    right: 50px;
+
+    .currency-text {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .down-arrow {
+        filter: contrast(0) brightness(5);
+        margin-left: 10px;
+    }
+
+    .currency-drop {
+        align-items: center;
+        display: flex;
+        padding: 10px;
+    }
+}
